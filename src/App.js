@@ -233,6 +233,11 @@ const ChecklistPage = () => {
           </ul>
         </div>
       ))}
+      <h2>Chart Oview</h2>
+        <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
     </div>
   );
 };
