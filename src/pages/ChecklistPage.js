@@ -183,7 +183,8 @@ const checklistData = [
   
         {/* Navigation Links */}
         <nav style={{ marginBottom: '2rem' }}>
-          <Link to="/strategy-breakdown" style={{ marginRight: '1rem' }}>View Trading Strategy Breakdown</Link>
+          <Link className="mr-5" to="/strategy-breakdown">View Trading Strategy Breakdown</Link>
+          <Link className="p-5" to="/ema">Under Standing EMA</Link>
         </nav>
   
         {/* Quotes Section */}
